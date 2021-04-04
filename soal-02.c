@@ -46,7 +46,11 @@ void printStack(struct stack * root){
     temp = root;
 
     while ((temp) != NULL){
-        printf("%s ", temp->kata);
+	if (temp->next != NULL)
+		printf("%s ", temp->kata);
+	else
+		printf("%s", temp->kata);
+	    
         temp = temp-> next;
     }
     printf("\n");
