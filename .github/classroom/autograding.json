@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "z x c v b n m a s d e w q r f t g y h u j i k o l p",
+      "output": "Kalimat dibalik: p l o k i j u h y g t f r q w e d s a m n b v c x z\r\n\r\nKata berurutan: a b c d e f g h i j k l m n o p q r s t u v w x y z",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": ":) ya saja baik-baik Semoga tante? kabar Apa",
+      "output": "Kalimat dibalik: Apa kabar tante? Semoga baik-baik saja ya :)\r\n\r\nKata berurutan: :) Apa Semoga baik-baik kabar saja tante? ya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "ya! kesehatan jaga dan tangan cuci lupa Jangan tante! pagi Selamat",
+      "output": "Kalimat dibalik: Selamat pagi tante! Jangan lupa cuci tangan dan jaga kesehatan ya!\r\n\r\nKata berurutan: Jangan Selamat cuci dan jaga kesehatan lupa pagi tangan tante! ya!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "? > < ) ( * & ^ % $ @ ! : 9 8 7 6 5 4 3 2 1 0",
+      "output": "Kalimat dibalik: 0 1 2 3 4 5 6 7 8 9 : ! @ $ % ^ & * ( ) < > ?\r\n\r\nKata berurutan: ! $ % & ( ) * 0 1 2 3 4 5 6 7 8 9 : < > ? @ ^",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "sekali asik PPMC Pelajaran",
+      "output": "Kalimat dibalik: Pelajaran PPMC asik sekali\r\n\r\nKata berurutan: PPMC Pelajaran asik sekali",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-06",
+      "input": "! baik yang hasil membuahkan akan keras Kerja",
+      "output": "Kalimat dibalik: Kerja keras akan membuahkan hasil yang baik !\r\n\r\nKata berurutan: ! Kerja akan baik hasil keras membuahkan yang",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "cheddar banana pie",
+      "output": "Kalimat dibalik: pie banana cheddar\r\n\r\nKata berurutan: banana cheddar pie",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "semut (makan) di aku, Permen",
+      "output": "Kalimat dibalik: Permen aku, di (makan) semut\r\n\r\nKata berurutan: (makan) Permen aku, di semut",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "suntik vaksin membuat aku me !nangis!",
+      "output": "Kalimat dibalik: !nangis! me aku membuat vaksin suntik\r\n\r\nKata berurutan: !nangis! aku me membuat suntik vaksin",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "saya favorit kartun adalah .upin-ipin.",
+      "output": "Kalimat dibalik: .upin-ipin. adalah kartun favorit saya\r\n\r\nKata berurutan: .upin-ipin. adalah favorit kartun saya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
